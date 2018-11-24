@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <title>Checkpoint5-HTML Forms</title>
+</head>
+<body>
+    <div class="Boxmodel">
+    <h1><span>ADA</span> My personal Feedback</h1>
+    <div id="leftpart" class="part1">
+        <img src="pictures\I_want_you_Norris.jpg" style="width:300px";"height:300px">
+        <p id="p1">to give us a feedback , because this website is made by us ! because it's all about us ! (Yep :p) </p>
+        <p><strong>Fill this form if you:</strong></p>
+        <ul>
+            <li>-Find an error in the content or in the quizzes</li>
+            <li>-Have a feedback about instructors or the experience</li>
+            <li>-Have a suggestion on how to make the course better</li>
+        </ul>
+    </div>
+    <div id="rightpart" class="part2"><strong>Email us</strong>
+    <form action="/submit data">
+        <h2><strong>Name</strong></h2>
+         <input type="text" id="IT">
+           <select>
+             <option>Track</option>
+             <option>AI</option>
+             <option>Web</option>
+             <option>Game</option>
+           </select>
+
+    <h2><strong>Slide Name (or Object)</strong></h2>
+    <input type="text" id="IT" required>
+
+    <h2><strong>Message</strong></h2>
+    <textarea rows="4" cols="50" id="TA"></textarea>
+    <button type="submit" id="Submit">Submit</button>
+</form>
+</div>
+
+
+
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main2.js"></script>
+</body>
