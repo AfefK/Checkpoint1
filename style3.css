@@ -1,0 +1,96 @@
+body{
+    padding:0px;
+    
+}
+
+.cover{
+    width: 104%;
+    height: 340px;
+    padding: 50px;
+    background-image: url('https://www.pcquest.com/wp-content/uploads/2016/07/Development-Tools.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 87px;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.651);
+    box-sizing: border-box;
+}
+img{
+    position: relative;
+    top: 149px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 55%;
+}
+#socialmedia{
+    position: relative;
+    text-align: center;
+    margin:160px;
+}
+#socialmedia:hover{
+    color:red;
+}
+.name{
+    position:relative;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.349);
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    top: -158px;
+    font-size: 40px;
+}
+.tagline{
+    position:relative;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.349);
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    top: -140px;
+    font-size: 20px;
+}
+#path{
+    margin:-58px;
+    text-align: center;
+
+}
+#love{
+    text-align: left;
+}
+#love p{
+    font-size: 20px;
+    color:rgb(236, 195, 224);
+    margin-top: 30px;
+}
+#icons{
+    color:rgba(216, 91, 91, 0.623);
+    text-align: center;
+    }
+    #icons:hover{
+        color:rgba(126, 99, 104, 0.658);
+        
+    }
+    ul{
+        color: rgba(0, 0, 0, 0.596);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+    }
+    #titles{
+        color:rgba(7, 7, 80, 0.699);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
+        text-decoration: underline;
+    }
+    .row{
+        text-align: center;
+        margin-top: 60px;
+    }
+    #projects{
+        text-align: center;
+        
+    }
+    #image {
+        border-radius: 7%;
+        width:334px;
+        text-align: center;
+        margin: -180px 0 205px 0;
+    }
